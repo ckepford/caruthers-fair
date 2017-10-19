@@ -1,0 +1,129 @@
+body {
+  margin:0 auto;
+  background-color:#e3e5e8;
+}
+/**************************Main Nav Styles**************************/
+
+.main-nav {
+    height:70px;
+    width:100%;
+    position: fixed;
+    background-color: #e3e5e8;
+}
+.nav-container {
+    height:70px;
+    width:100%;
+    margin:0 -25%;
+}
+.nav-list {
+    float:right;
+    list-style:none;
+}
+.nav-item {
+    color:#ae8a1e;
+    font-family:sans-serif;
+    font-size:19px;
+    text-shadow:1px 1px black;
+    float:left;
+    padding:10px 30px;
+}
+.nav-links {
+    color:#ae8a1e;
+    text-decoration: none;
+}
+
+/**************************Hero Styles**************************/
+
+.hero-background {
+    height:820px;
+    width:100%;
+    background-image:url('../images/caruthers-fair-zipper.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.hero-title {
+    color:#fbf3e9;
+    font-family: sans-serif;
+    font-size:45px;
+    text-shadow:3px 3px grey;
+    text-align:right;
+    padding-top:100px;
+    padding-right:20px;
+    margin:0 10% 0;
+}
+.hero-text {
+    color:#ae8a1e;
+    font-family: sans-serif;
+    font-size:20px;
+    font-style:italic;
+    text-shadow:1px 1px black;
+    text-align:right;
+    padding-right:40px;
+    margin:0 10% 0;
+}
+.fair-date {
+    color:#02414b;
+    font-family: sans-serif;
+    font-size:30px;
+    text-shadow:2px 1px #022930;
+    text-align:right;
+    margin:5% 15%;
+}
+
+/**************************Column Styles**************************/
+
+.column-section {
+    float:right;
+    height:150px;
+    width:150px;
+    padding: 22px 74px;
+    margin:-498px 0;
+}
+.column-title {
+    color:#ae8a1e;
+    font-fmaily: sans-serif;
+    text-shadow:1px 1px grey;
+}
+.list-item {
+    list-style: none;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+
+/**************************About Styles**************************/
+
+.about-container {
+    width:80%;
+    margin:0 10%;
+}
+.about-paragraph {
+    float:right;
+    margin-top:75px;
+}
+.about-img {
+  float:right;
+}
+
+/**************************Contact Styles**************************/
+
+.contact-container {
+    width:80%;
+    margin:0 10%;
+    padding-top:100px;
+}
+
+/**************************Footer Styles**************************/
+
+.footer {
+  min-height: 100px;
+  border-top:1px solid grey;
+  margin:45% 5% 0;
+}
+.footer-text {
+  float:left;
+  padding-right:125px;
+  font-family:'Open Sans', sans-serif;
+  font-size:15px;
+}
